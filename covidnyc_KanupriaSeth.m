@@ -147,12 +147,12 @@ end
 for x = [1:13]
     ratio_hosp_case(x) = hosp_int(x)./case_countpred(x);
     ratio_death_case(x)= deaths_int(x)./case_countpred(x);
-    hosp_case(13) = hosp_int(13);
-    deaths_pred(x) = deaths_int(x);
+    hosp_pred(x) = hosp_int(x); %Existing data for hospitilizations
+    deaths_pred(x) = deaths_int(x); %Existing data for deaths
 end 
 for x = [14:22]
-    hosp_case(x) = hosp_case(13) + (ratio_hosp_case(13)*(x-13));
-    deaths_pred(x) = (ratio_death_case(13)*(case_countpred(x)));
+    hosp_pred(x) = (ratio_hosp_case(13)*(case_countpred(x))); %Predicted in terms of ratio of hospitilizations:cases & # of predicted new cases
+    deaths_pred(x) = (ratio_death_case(13)*(case_countpred(x))); %Predicted in terms of ratio of deaths:cases & # of predicted new cases
 end
 
 % CASES PREDICTED & DEATHS PREDICTED for next 10 days PLOT
