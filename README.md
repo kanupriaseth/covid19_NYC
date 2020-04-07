@@ -11,3 +11,4 @@ Link for data:https://www1.nyc.gov/site/doh/covid/covid-19-data.page
 Governor Cuomo's press conference today (Apri 07, 2020) revealed that deaths are recorded by phoning coroners' offices, while case count is updated by hospital admins close to 5 pm.
 
 Note: The data comprises of the 5 boroughs of New York City, and NOT that of all of New York State.
+Note*: Additional comparisons such as total deaths to total cases for China, Italy at the end of the attached script.
