@@ -1,4 +1,5 @@
 # covid19_NYC
+6th April 2020
 Evolution of COVID 19 case count and deaths in NEW YORK CITY, 2020.
 
 New York City remains the current epicentre of #COVID19 in North America, but shows some signs of slowing the rate of #CORONAVIRUS spread. 
@@ -12,3 +13,6 @@ Governor Cuomo's press conference today (Apri 07, 2020) revealed that deaths are
 
 Note: The data comprises of the 5 boroughs of New York City, and NOT that of all of New York State.
 Note*: Additional comparisons such as total deaths to total cases for China, Italy at the end of the attached script.
+
+UPDATE on 14th April 2020:
+Latest NYC official data updated in code, as of 6 pm on 14th April, 2020.
